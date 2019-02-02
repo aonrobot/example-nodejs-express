@@ -6,6 +6,6 @@ COPY / /app
 
 WORKDIR /app
 
-CMD ["node","bin/www"]
+CMD ["npm","start"]
 
 EXPOSE 3000
